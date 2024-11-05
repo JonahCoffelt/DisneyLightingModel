@@ -1,0 +1,196 @@
+{
+    "asset": {
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "uri": "bunny.obj"
+        },
+        {
+            "uri": "cow.obj"
+        },
+        {
+            "uri": "cylinder.obj"
+        },
+        {
+            "uri": "donut.obj"
+        },
+        {
+            "uri": "lucy.obj"
+        },
+        {
+            "uri": "monkey.obj"
+        },
+        {
+            "uri": "sphere.obj"
+        }
+    ],
+    "meshes": [],
+    "images": [
+        {
+            "uri": "box.png"
+        },
+        {
+            "uri": "brick.png"
+        },
+        {
+            "uri": "brick_normal.png"
+        },
+        {
+            "uri": "container.png"
+        },
+        {
+            "uri": "cow.png"
+        },
+        {
+            "uri": "metal.png"
+        },
+        {
+            "uri": "normal_map.png"
+        },
+        {
+            "uri": "normal_map2.png"
+        },
+        {
+            "uri": "mud.png"
+        },
+        {
+            "uri": "mud_normal.png"
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0
+        },
+        {
+            "sampler": 1
+        },
+        {
+            "sampler": 2
+        },
+        {
+            "sampler": 3
+        },
+        {
+            "sampler": 4
+        },
+        {
+            "sampler": 5
+        },
+        {
+            "sampler": 6
+        },
+        {
+            "sampler": 7
+        },
+        {
+            "sampler": 8
+        },
+        {
+            "sampler": 9
+        }
+    ],
+    "materials": [
+        {
+            "name": "base",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.5,
+                "roughnessFactor": 32
+            }
+        },
+        {
+            "name": "normal_test",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 64.0
+            },
+            "normalTexture": {
+                "index": 9,
+                "texCoord": 1,
+                "scale": 1
+            }
+        },
+        {
+            "name": "mud",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 32.0,
+                "baseColorTexture": {
+                    "index": 8,
+                    "texCoord": 1
+                }
+            },
+            "normalTexture": {
+                "index": 9,
+                "texCoord": 1,
+                "scale": 1
+            }
+        },
+        {
+            "name": "brick",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 1.0,
+                "roughnessFactor": 128.0,
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 1
+                }
+            },
+            "normalTexture": {
+                "index": 2,
+                "texCoord": 1,
+                "scale": 1
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "name": "sphere",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mesh": 6,
+            "material": 2
+        }
+    ],
+    "scenes": [
+        {}
+    ]
+}
